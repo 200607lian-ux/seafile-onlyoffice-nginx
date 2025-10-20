@@ -1,0 +1,20 @@
+# 忽略 Docker 容器数据和日志
+seafile/seafile-data/
+seafile/seafile-mysql/
+seafile/seafile-caddy/
+seafile/seadoc-data/
+seafile/notification-data/
+
+Docker-DocumentServer/data/
+Docker-DocumentServer/log/
+Docker-DocumentServer/cache/
+Docker-DocumentServer/example/
+Docker-DocumentServer/fonts/
+
+nginx/logs/
+nginx/ssl/  # 如有敏感证书文件，建议忽略
+
+# 忽略临时文件和编辑器缓存
+*.swp
+*.swo
+.DS_Store
